@@ -1,0 +1,85 @@
+.homeContainer{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+.detailContainer{
+      width: 96%;
+      position: relative;
+      padding: 2rem;
+      margin: 1rem;
+      border:1px solid rgba(128, 128, 128, 0.686);
+      border-radius: 0.5rem;
+      box-shadow:inset 0 0 1rem gray;
+}
+.detailTitle{
+      color: #4169E1;;
+}
+.detailImage{
+      margin-top: 2rem;
+      width: 80%;
+      transform: translateX(13%);
+      border-radius: 0.5rem;
+      box-shadow:0 0 3rem gray;
+}
+.detailActors{
+      margin-top: 2rem;
+      padding: 1rem;
+}
+.detailContainer2{
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+}
+.detailGenres{
+      margin-top: 2rem;
+      padding: 1rem;
+}
+.detailYear{
+      margin-top: 0.3rem;
+}
+.color{
+     
+      color: #4169E1;
+}
+.color:nth-child(1){
+      transform: translateX(-0.8rem);
+}
+.detailText{
+      margin-top:0.5rem;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      text-align: justify;
+}
+.searchInput{
+      width: 80%;
+      height: 2.3rem;
+      padding-left: 0.5rem;
+      border: none;
+      outline: none;
+      box-shadow:inset 0 0 0.5rem gray;
+      border-radius: 0.5rem;
+}
+.seatchImage{
+      width: 2.1rem;
+      margin-right: 0.5rem;
+}
+.inputcontainer{
+      height: 4.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      background-color:white;
+      z-index: 4;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.581);
+      box-shadow: 0 0 1rem gray;
+}
+.text{
+      width: 100%;
+      text-align: center;
+      margin-top: 4rem;
+}
